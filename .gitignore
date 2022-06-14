@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+public
+src
+.babelrc
+.package-lock.json
+.package.json
+.yarn.lock
