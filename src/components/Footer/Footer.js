@@ -15,33 +15,33 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Mobile</LinkTitle>
-          <LinkItem href="tel:+234-814-721-9564">+234-814-721-9564</LinkItem>
+          <LinkItem href="tel:+2348147219564" target="_blank" rel="noopener noreferrer">+234-814-721-9564</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:joshuasylvanus@gmail.com">joshuasylvanus@gmail.com</LinkItem>
+          <LinkItem href="mailto:josh.sylvanus.c@gmail.com" target="_blank" rel="noopener noreferrer">josh.sylvanus.c@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>If you are good, you are good</Slogan>
+          <Slogan>Building world-class applications</Slogan>
         </CompanyContainer>
 
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/Yungjay131" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href="https://linkedin.com/in/josh-sylvanus" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com">
+          <SocialIcons href="https://twitter.com/josh_sylvanus" target="_blank" rel="noopener noreferrer">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com">
+          {/*  <SocialIcons href="https://instagram.com">
             <AiFillInstagram size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

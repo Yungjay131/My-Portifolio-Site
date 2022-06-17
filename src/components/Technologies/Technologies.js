@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id="tech">
+  <Section id='technologies'>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of libraries,architectural patterns and technologies
       related to Android development
@@ -40,8 +40,8 @@ const Technologies = () => (
           <ListTitle>Reactive Programming</ListTitle>
           <ListParagraph>
             Experience with <br />
-            RxJava/RxKotlin and more recently the reactive libraries in Jetpack compose <br />
-            like Flow
+            RxJava/RxKotlin and more recently the reactive libraries in Jetpack <br />
+            like Flow and LiveData
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -63,6 +63,16 @@ const Technologies = () => (
           <ListParagraph>
             Familiar with <br />
             android architectural patterns like MVVM, MVI, MVP
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>UI/UX Tools</ListTitle>
+          <ListParagraph>
+            working knowledge of <br />
+            UI/UX Tools like AdobeXD, Zeplin and Inkscape
           </ListParagraph>
         </ListContainer>
       </ListItem>

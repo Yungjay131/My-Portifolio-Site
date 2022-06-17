@@ -42,7 +42,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#technology">
+        <Link href="#technologies">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
@@ -53,17 +53,14 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/Yungjay131" target="_blank" rel="noopener noreferrer">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://linkedin.com/in/josh-sylvanus" target="_blank" rel="noopener noreferrer">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com">
+      <SocialIcons href="https://twitter.com/josh_sylvanus" target="_blank" rel="noopener noreferrer">
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
